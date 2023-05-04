@@ -1,33 +1,64 @@
-.accordion {
-    list-style: none;
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.accordion_item {
-    border-top: 1px solid #9f9f9f;
+.li-link {
+    list-style-type: none;
+    margin-bottom: 1vh;
+}
+.helpful {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    background-color: rgb(0, 117, 219);
+    width: fit-content;
+    color: aliceblue;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-radius: 6px;
+}
+.link {
+    color: rgb(0, 117, 219);
+}
+.item {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background: rgb(218, 232, 237);
+    border-radius: 10px;
+    width: 90%;
+}
+.minus {
+    font-size: 0.7em;
 }
 .button {
+    border-radius: 10px;
     font-size: 16px;
-    background-color: #008593;
-    color: #fff;
+    color: rgb(0, 117, 219);
     text-align: left;
     font-weight: 700;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
+    background-color: rgb(208, 227, 234);
     align-items: center;
-    padding: 18px 8px;
+    padding: 4vh 4vh;
     cursor: pointer;
     border: none;
+}
+.button:focus {
+    outline: none;
 }
 .control {
     font-size: 20px;
 }
 .answer {
-    background-color: #f7f7f7;
-    padding: 20px;
-}
-.accordion_item.active .button {
-    background-color: #105057;
+    padding: 3vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    line-height: 1.75em;
 }
 .answer_wrapper {
     height: 0;

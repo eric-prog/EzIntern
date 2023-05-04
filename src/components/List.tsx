@@ -4,7 +4,7 @@ import Item from "./Item"
 
 export default function List() {
     return (
-      <div>
+      <div className="list">
         {Answers.map((answer, i)=> (
             <Item key={i} answer={answer} />
         ))}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(221, 236, 240);
+    font-family: 'Golos Text', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 7vh;
+}
+.intro-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.intro-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.ezintern, .tagline {
+    margin-left: 14vh;
+}
+.right-box {
+    align-items: center;
+}
+.intro-img {
+    width: 70%;
+    height: 70%;
+}
+.ezintern {
+    color: rgb(0, 117, 219);
+    font-size: 4em;
+    margin-bottom: 4vh;
+}
+.tagline {
+    font-size: 1.5em;
+    line-height: 1.7em;
+}

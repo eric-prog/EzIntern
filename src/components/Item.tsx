@@ -4,18 +4,17 @@ import { useRef } from "react";
 
 
 export default function Item ({ answer }: { answer: AnswerModel }) {
-
     const [clicked, setClicked] = useState(false);
     const contentEl = useRef<HTMLInputElement>(null);
 
     const handleToggle = () => {
-    setClicked((prev) => !prev);
+        setClicked((prev) => !prev);
     };
 
     return (
-        <li className={`accordion_item ${clicked ? "active" : ""}`}>
+        <div className={`item ${clicked ? "active" : ""}`}>
             <button className="button" onClick={handleToggle}>{answer.question}
-                <span className="control">{clicked ? "—" : "+"} </span>
+                <span className="control">{clicked ? <span className="minus">—</span> : "+"} </span>
             </button>
 
             <div
@@ -26,8 +25,14 @@ export default function Item ({ answer }: { answer: AnswerModel }) {
                     ? { height: contentEl.current ? contentEl.current.scrollHeight : 0 }
                     : { height: "0px" }
             }>
-                <div className="answer">{answer.answer}</div>
+                <div className="answer">
+                    <p>{answer.answer}</p>
+                    {answer.link.length > 0 && <p className="helpful">Helpful Links:</p>}
+                    {answer.link.map((link, i) => (
+                        <li className="li-link"><a className="link" key={i} href="#">{link}</a></li>
+                    ))}
+                </div>
             </div>
-        </li>
+        </div>
     );
 };
