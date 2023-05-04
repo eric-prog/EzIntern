@@ -57,6 +57,7 @@ body {
     color: rgb(0, 117, 219);
     font-size: 4em;
     margin-bottom: 4vh;
+    width: 90%;
 }
 .tagline {
     font-size: 1.5em;
