@@ -23,7 +23,7 @@ export const Answers: AnswerModel[] = [
         link: ["https://ca.indeed.com/career-advice/interviewing/screening-interview-questions", "https://enhancv.com/blog/internship-interview-questions-and-answers/"]
     },
     {
-        question: "What to expect in a technical internview?",
+        question: "What to expect in a technical interview?",
         answer: "Once you have passed the intro call you will most likely have a technical assessment for the company to decide whether or not you are fit for the role. This may be in a leetcode-style, takehome project, or peer programming-based format. You will most likely be told what to expect and if not, you should probably ask. If it's a take-home project, you will be given a deadline and project to complete. If it's a leetcode-style, then it will be a live interview setting where you will try and solve a question that involves algorithms. If it's peer programming then this can vary. In my experience, peer programming interviews were a live format focussing on debugging and understanding a codebase. There can be multiple technical rounds/interviews.",
         link: ["https://leetcode.com/discuss/career/450215/How-to-use-LeetCode-to-help-yourself-efficiently-and-effectively-(for-beginners)", "https://snaphunt.com/advice/jobSearchAdvice/seven-tips-to-prepare-for-leetcode-style-questions-in-technical-interviews", "https://www.thisdot.co/blog/how-to-avoid-common-pitfalls-and-ace-your-take-home-assignment", "https://www.freecodecamp.org/news/things-ive-learned-from-pair-programming-interviews-35a4db7d7443/"]
     },
