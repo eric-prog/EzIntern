@@ -45,12 +45,12 @@ export const Answers: AnswerModel[] = [
     {
         question: "Should I accept an unpaid internship?",
         answer: "Unpaid internships are 'alright' as long as you are learning. If you can't get a paid internship and you are just getting started, then something like an unpaid internship might be worthwhile and open more doors in the future.",
-        link: [""]
+        link: []
     },
     {
         question: "I have imposter syndrome. :(",
         answer: "When I started off I definetly felt like I wasn't the most qualified but who cares! We're here to learn. I feel like everyone has experienced imposter syndrome to a certain degree and you're not alone. It's ok to feel this way but don't let it demotivate you or undervalue you. Stay confident and continue to work on your craft! Your mindset determines your success.",
-        link: [""] 
+        link: [] 
     },
     
 ]
