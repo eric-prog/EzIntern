@@ -9,7 +9,7 @@ export default function Home() {
       <Intro />
       <List />
       <Resume />
-      <p className="copyright">2023 EzIntern 🔹</p>
+      <p className="copyright">2023 EasyIntern 🔹</p>
     </div>
   )
 }
