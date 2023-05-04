@@ -29,7 +29,7 @@ export default function Item ({ answer }: { answer: AnswerModel }) {
                     <p>{answer.answer}</p>
                     {answer.link.length > 0 && <p className="helpful">Helpful Links:</p>}
                     {answer.link.map((link, i) => (
-                        <li className="li-link"><a className="link" key={i} href="#">{link}</a></li>
+                        <li key={i} className="li-link"><a className="link" href="#">{link}</a></li>
                     ))}
                 </div>
             </div>

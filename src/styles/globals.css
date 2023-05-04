@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&display=swap');
 
-
+html {
+    width: 100%;
+}
 body {
     margin: 0;
     padding: 0;
@@ -39,6 +41,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    width: 100%;
 }
 .ezintern, .tagline {
     margin-left: 14vh;
@@ -64,4 +67,14 @@ body {
 }
 .copyright {
     margin-top: 12vh;
+}
+@media only screen and (max-width: 600px) {
+    .intro-box {
+        flex: none;
+        align-items: center;
+        text-align: center;
+    }
+    .ezintern, .tagline {
+        margin-left: 0;
+    }
 }
